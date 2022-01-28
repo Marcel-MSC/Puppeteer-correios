@@ -49,6 +49,8 @@ const Puppeteer = require('puppeteer')
 
     let table = await page2.$eval('#resultado-DNEC', (el) => el.outerHTML)
     console.log('Table: ', table)
+    
+    await page2.screenshot({ path: 'correios.png' });
 
     await browser.close()
 })()
