@@ -15,8 +15,7 @@ const Puppeteer = require('puppeteer')
         await page.type('#endereco', '03336000');
         await page.click("#btn_pesquisar");
         await page.waitForSelector("#btn_nbusca");
-
-        await page.screenshot({ path: './images/correios.png' });
+        await page.screenshot({ path: './outputCorreio/correios.png' });
 
         // Implementar novamente com as mudanças de ids, table enfim tudo
 
