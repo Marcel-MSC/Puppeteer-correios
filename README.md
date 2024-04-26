@@ -25,11 +25,11 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Open a headless browser open a URL to Correios and take a photo of the address found.
+Open a headless browser go navegate to a URL of Correios and take a photo of the address found.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development purposes.
 
 ### Prerequisites
 
